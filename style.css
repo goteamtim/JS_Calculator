@@ -1,3 +1,36 @@
+* {
+		border: 1px black solid;
+}
+
 body {
+	background-color: white;
+}
+
+.calculator {
+	width:400px;
+	height:500px;
 	background-color: grey;
+	border-radius: 5px;
+	text-align: center;
+	display: block;
+}
+
+.calcButtons {
+	text-align: justify;
+}
+
+#screen {
+	width:300px;
+	height:30px;
+
+	display: inline-block;
+}
+
+#clear {
+	height:70px;
+	width:70px;
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+
 }
